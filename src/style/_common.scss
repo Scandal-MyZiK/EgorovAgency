@@ -2,6 +2,24 @@
     box-sizing: border-box;
 }
 
+h1, h2, h3, p{
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
 button {
     border: none;
     cursor: pointer;
@@ -16,3 +34,19 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    font-size:  18px;
+    line-height: 1.5;
+    color: #162C4E;
+    background-color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    background: 
+      url(../image/header-left-img.svg) top left no-repeat, 
+      url(../image/header-right-img.svg) top right no-repeat;
+}
+
+.container{
+    max-width: 900px;
+    width: 90%;
+    margin: 0 auto;
+}
