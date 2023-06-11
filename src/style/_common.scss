@@ -43,6 +43,16 @@ body {
     background: 
       url(../image/header-left-img.svg) top left no-repeat, 
       url(../image/header-right-img.svg) top right no-repeat;
+    @media (max-width: 1300px) {
+        background-size: 30% auto;
+        background-position-y: top -10%, top 0 ;
+    }
+    @media (max-width: 768px) {
+        background-size: 35% auto;
+    }
+    @media (max-width: 460px) {
+        background-size: 40% auto;
+    }
 }
 
 .container{

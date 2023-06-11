@@ -31,11 +31,11 @@ module.exports = {
         new MiniCssExtractPlugin ({
             filename: '[name].[contenthash].css',
         }),
-        // new CopyWebpackPlugin({
-		// 	patterns: [
-		// 		{from: path.resolve(__dirname, 'src/static'), to: ''}
-		// 	]
-		// })
+        new CopyWebpackPlugin({
+			patterns: [
+				{from: path.resolve(__dirname, 'src/static'), to: ''}
+			]
+		})
     ],
     module: {
         rules: [

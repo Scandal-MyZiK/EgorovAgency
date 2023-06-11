@@ -7,44 +7,80 @@
     <title>Egorov Agency</title>
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="header__inner">
-                <a href="/" class="header__logo">
-                    <img src="./image/header-logo.png" alt="" class="header__logo-img">
-                </a>
-                <div class="header__center">
-                    <h1 class="header__title">
-                        Under Construction
-                    </h1>
-                    <p class="header__subtitle">
-                        We're making lots of improvements and will be back soon
-                    </p>
+    <section class="page">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="/" class="header__logo">
+                        <img src="./image/header-logo.png" alt="" class="header__logo-img">
+                    </a>
+                    <div class="header__center">
+                        <h1 class="header__title">
+                            Under Construction
+                        </h1>
+                        <p class="header__subtitle">
+                            We're making lots of improvements and will be back soon
+                        </p>
+                    </div>
+                    <div class="header__bottom">
+                        <div id="group" class="header__timer">
+                            <div class="header__block">
+                                <span id="days" class="header__number"></span>
+                                <img src="./image/header-days.png" alt="" class="header__icon">
+                                <img src="./image/header-dd-small.png" alt="" class="header__icon-media">
+                            </div>
+                            <span class="header__points">:</span>
+                            <div class="header__block">
+                                <span id="hours" class="header__number"></span>
+                                <img src="./image/header-hours.png" alt="" class="header__icon">
+                                <img src="./image/header-hh-small.png" alt="" class="header__icon-media">
+                            </div>
+                            <span class="header__points">:</span>
+                            <div class="header__block">
+                                <span id="minuts" class="header__number"></span>
+                                <img src="./image/header-minutes.png" alt="" class="header__icon">
+                                <img src="./image/header-mm-small.png" alt="" class="header__icon-media">
+                            </div>
+                            <span class="header__points">:</span>
+                            <div class="header__block">
+                                <span id="seconds" class="header__number"></span>
+                                <img src="./image/header-seconds.png" alt="" class="header__icon">
+                                <img src="./image/header-ss-small.png" alt="" class="header__icon-media">
+                            </div>
+                        </div>
+                            <p class="header__desc">
+                                Check our event page when you wait:
+                            </p>
+                            <form class="header__form" action="https://vk.com/misyuk99" target="_blank">
+                                <button class="header__btn btn">
+                                    <p class="header__btn-link">Go to the event</p>
+                                    <img src="./image/header-arrow.svg" alt="" class="header__btn-img">
+                                </button>
+                            </form>
+                    </div>
                 </div>
-                <div class="header__bottom"></div>
             </div>
-            <div id="group" class="header__timer">
-                <div class="header__block">
-                    <span id="d" class="header__number"></span>
-                    <img src="./image/header-days.png" alt="" class="header__icon">
-                </div>
-                <span class="header__points">:</span>
-                <div class="header__block">
-                    <span id="h" class="header__number"></span>
-                    <img src="./image/header-hours.png" alt="" class="header__icon">
-                </div>
-                <span class="header__points">:</span>
-                <div class="header__block">
-                    <span id="m" class="header__number"></span>
-                    <img src="./image/header-minutes.png" alt="" class="header__icon">
-                </div>
-                <span class="header__points">:</span>
-                <div class="header__block">
-                    <span id="s" class="header__number"></span>
-                    <img src="./image/header-seconds.png" alt="" class="header__icon">
+        </header>
+        <div class="popup">
+            <div class="popup__content">
+                <img src="./image/popap-cross.svg" alt="" class="popup__img popup__close">
+                <div class="popup__block">
+                    <p class="popup__title"></p>
+                    <p class="popup__text"></p>
+                    <button class="popup__btn popup__close">Close</button>
                 </div>
             </div>
         </div>
-    </header>
+        <footer class="footer">
+            <div class="container">
+                <form class="footer__form" action="#" method="post">
+                    <input class="footer__input" name="email" placeholder="Enter your Email and get notified" type="email" />
+                    <button class="footer__btn" type="submit">
+                            <img class="footer__img" src="./image/header-arrow.svg" alt="">
+                    </button>
+                </form>
+            </div>
+        </footer>
+    </section>
 </body>
 </html>
